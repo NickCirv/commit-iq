@@ -1,0 +1,33 @@
+{
+  "name": "commit-iq",
+  "version": "1.0.0",
+  "description": "AI commit message quality scorer + rewriter",
+  "type": "module",
+  "bin": {
+    "commit-iq": "./bin/iq.js"
+  },
+  "scripts": {
+    "start": "node bin/iq.js",
+    "lint": "node --check src/*.js bin/iq.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "lint",
+    "conventional-commits",
+    "developer-tools"
+  ],
+  "author": "NickCirv <nick@cirvgreen.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/commit-iq"
+  }
+}
