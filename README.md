@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # commit-iq
 
 Score your commit messages 0–100. Stop shipping `fix`, `wip`, and `asdf` to production.
